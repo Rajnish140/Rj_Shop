@@ -1,0 +1,1249 @@
+<html>
+<head>
+<title> Project 1</title>
+<style>
+body{
+	margin:0;
+	padding:0;
+}
+.mf{
+position:fixed;
+}
+.fix1{
+	width:105%;
+	height:80px;
+	border:1px solid black;
+	display:flex;
+	gap:35px;
+	font-size:25px;
+	
+	background-color:rgb(255 255 255);
+}
+.mas{
+background:url(pick5.png);
+background-size:contain;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip:text; 
+mask-repeat:no-repeat;
+}
+.f1{
+	margin-top:-20px;
+}
+
+.f3,.f4,.f5,.f6{
+	margin-top:30px;
+}
+input{
+	width:300px;
+	height:40px;
+	border:1px solid black;
+	margin-top:25px;
+	border-radius:2px;
+}
+placeholder{
+	text-align:center;
+}
+.fix2{
+	width:105%;
+	height:40px;
+	border:1px solid black;
+	display:flex;
+	gap:25px;
+	font-size:20px;
+	background-color:rgb(255 255 255);
+	justify-content:center;
+	align-items:center;
+}
+.ff1,.ff2,.ff3,.ff4,.ff5,.ff6,.ff7,.ff8{
+margin-left:50px;
+
+}
+.ff1:hover{
+background-color:rgb(255 154 155);
+color:white;
+height:32px;
+}
+.dropdown1 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.ff1:hover .dropdown1 {
+  display: block;
+  background-color:green;
+  color:white;
+}
+.dropdown1 ul {
+  padding: 0;
+  margin: 0;
+}
+.dropdown1 ul li {
+  list-style: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.dropdown1 ul li:hover {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.ff2:hover{
+background-color:rgb(255 154 155);
+color:white;
+height:34px;
+}
+.dropdown2 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 12px;
+}
+.ff2:hover .dropdown2 {
+  display: block;
+  background-color:green;
+  color:white;
+}
+.dropdown2 ul {
+  padding: 0;
+  margin: 0;
+}
+.dropdown2 ul li {
+  list-style: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dropdown2 ul li:hover {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.ff3:hover{
+background-color:rgb(255 154 155);
+color:white;
+height:34px;
+}
+.dropdown3 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.ff3:hover .dropdown3 {
+  display: block;
+  background-color:green;
+  color:white;
+}
+.dropdown3 ul {
+  padding: 0;
+  margin: 0;
+}
+.dropdown3 ul li {
+  list-style: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.dropdown3 ul li:hover {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.ff4:hover{
+background-color:rgb(255 154 155);
+color:white;
+height:34px;
+}
+.dropdown4 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.ff4:hover .dropdown4 {
+  display: block;
+  background-color:green;
+  color:white;
+}
+.dropdown4 ul {
+  padding: 0;
+  margin: 0;
+}
+.dropdown4 ul li {
+  list-style: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.dropdown4 ul li:hover {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.image{
+	width:100%;
+	height:auto;
+	background-image:url("project1pick1.jpg");
+	transparent:0.1%;
+	
+}
+.image2{
+	margin-left:850px;
+	margin-top:-707px;
+	width:300px;
+	height:200px;
+}
+.img{
+	width:500px;
+	height:450px;
+	margin-top:-1px;
+}
+.img2{
+	width:100px;
+	height:150px;
+	transform:rotate(-35deg);
+	border-radius:20px;
+	margin-left:725px;
+	margin-top:230px;	
+}
+.Big{
+	display:flex;
+	gap:20px;
+	justify-content:center;
+	align-items:center;
+}
+.s1,.s2,.s3,.s4,.s5{
+	width:200px;
+	height:300px;
+	background-color:rgb(255 255 255);
+	border:1px solid black;
+	margin-top:200px;
+	margin-left:40px;
+	border-radius:10px;
+	
+}
+.s11,.s22,.s33,.s44,.s55{
+	width:150;
+	height:225;
+	margin-left:20px;
+	margin-top:10px;
+	border-radius:5px;
+	
+	}
+	.s11:hover{
+		width:170px;
+		height:235;
+	}
+.s111,.s222,.s333,.s444,.s555{
+	background-color:blue;
+	color:white;
+	font-size:15px;
+	border-radius:1px 1px 10px 10px;
+	height:40px;
+	text-align:center;
+	margin-top:25px;
+	
+}
+
+.scroll{
+  display: flex;
+  gap: 30px;
+}
+.m1,.m2,.m3,.m4,.m5,.m6,.m7,.m8,.m9,.m10,.m11,.m12,.m13,.m14,.m15{
+	border:1px solid black;
+	background-color:rgb(255 255 255);
+	gap:30px;
+	width:200px;
+	height:100px;
+	margin-top:20px;
+	border-radius:5px;
+
+}
+.m55,.m66,.m77{
+	width:180px;
+	height:80px;
+}
+.m11,.m22,.m33,.m44{
+	width:180px;
+	height:80px;
+	margin-top:10px;
+	margin-left:5px;
+	border-radius:50%;
+}
+.m11:hover{
+	width:190px;
+	height:90px;
+}
+.scroll-group :hover{
+width:400px;
+height:300px;
+}
+.mr1{
+	width:100%;
+	height:150px;
+	display:flex;
+	margin-top:20px;
+	gap:20px;
+	background-color:rgb(25 220 125);
+}
+.st{
+	margin-top:20px;
+}
+.st-img{
+	width:100%;
+	height:300px;
+}
+.st11{
+	width:30%;
+	height:200px;
+	display:flex;
+	border:2px solid blue;
+	box-shadow:2px blue;
+	gap:410px;;
+	margin-top:-250px;
+	margin-left:40px;
+}
+.stimg1,.stimg1,stimg1{
+	border:2px solid black;
+	box-shadow:0 5px 5px black;
+}
+.stimg1:hover{
+	width:35%;
+	height:210px;
+}
+.name{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.st111{
+	border:1px solid black;
+	width:150px;
+	height:40px;
+	border-radius:10%;
+	background-color:blue;
+	color:white;
+	text-align:center;
+	margin-left:40px;
+}
+.st333{
+	border:1px solid black;
+	width:150px;
+	height:40px;
+	margin-right:53px;
+	border-radius:10%;
+	background-color:blue;
+	color:white;
+	text-align:center;
+	}
+	.st222{
+	border:1px solid black;
+	width:140px;
+	height:40px;
+	margin-left:10px;
+	border-radius:10%;
+	background-color:blue;
+	color:white;
+	text-align:center;
+	}
+
+	.input11{
+		width:250px;
+		
+	}
+	.select1{
+		margin-left:-200px;
+		
+		border:none;
+	}	
+.input2{
+display: inline-block;
+flex-direction:column;
+background-color: rgb(245, 234, 234);
+width:300;
+height:200px;
+margin-top:50;
+margin-left:70px;
+}
+.input22{
+
+	border:none;
+	
+}
+.select2{
+margin-top:-100px;
+margin-left:100px;
+border:none;
+width:20px;
+
+}
+.input33{
+width:250px;
+margin-top:-70px;
+background-color: rgb(245, 234, 234);
+}
+
+input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      border: 2px solid #555;
+      border-radius: 10%;
+      cursor: pointer;
+			padding: 20px;
+			background-color: rgb(245, 234, 234);
+    }
+span{
+		display: block;
+		padding: 15px;
+		background-color: rgb(245, 234, 234);
+}
+
+.product{
+		
+		width:920px;
+		height:1510px;
+		margin-left:395px;
+		margin-top: -300px;
+}
+
+.pro1{
+	display:flex;
+	gap:45px;
+	margin-left:20px;
+
+}
+.pro11{
+	width:200px;
+	height:250px;
+
+}
+
+.pro2{
+	display:flex;
+	gap:45px;
+	margin-left:20px;
+	margin-top:45px;
+}
+.pro22{
+	width:200px;
+	height:250px;
+	
+}
+
+.pro3{
+	display:flex;
+	gap:45px;
+	margin-left:20px;
+	margin-top:45px;
+}
+.pro33{
+	width:200px;
+	height:250px;
+	
+}
+
+.pro4{
+	display:flex;
+	gap:45px;
+	margin-left:20px;
+	margin-top:45px;
+}
+.pro44{
+	width:200px;
+	height:250px;
+	
+}
+
+.pro5{
+	display:flex;
+	gap:45px;
+	margin-left:20px;
+	margin-top:45px;
+}
+.pro55{
+	width:200px;
+	height:250px;
+	
+}
+
+.imgpro1{
+	width:200px;
+	height:200px;
+	
+}
+
+.imgpro2{
+	width:200px;
+	height:200px;
+	
+}
+
+.imgpro3{
+	width:200px;
+	height:200px;
+	
+}
+
+.imgpro4{
+	width:200px;
+	height:200px;
+	
+}
+
+.imgpro5{
+	width:200px;
+	height:200px;
+	
+}
+
+.imgpro21:hover{
+	width:200px;
+	height:200px;
+	
+}
+
+.imgpro3:hover{
+	width:200px;
+	height:200px;
+	
+}
+.imgpro4:hover{
+	width:200px;
+	height:200px;
+}
+.imgpro_1{
+	font-size:20px;
+	margin-left:20px;
+	margin-top:10px;
+}
+
+del{
+	color:gray;
+	padding:15px;
+}
+button{
+	width:200px;
+	background-color: rgb(24, 17, 17);
+	color:white;
+	font-size:20px;
+	border-radius:5px;
+}
+
+button:hover{
+	width:210;
+	background-color: rgb(10, 14, 150);
+	color:white;
+	font-size:22px;
+	border-radius:5px;
+}
+
+.imgpro1:hover
+{
+	width:210px;
+	height:210px;
+}
+
+.imgpro2:hover
+{
+	width:210px;
+	height:210px;
+}
+
+.imgpro3:hover
+{
+	width:210px;
+	height:210px;
+}
+
+.imgpro4:hover
+{
+	width:210px;
+	height:210px;
+}
+
+.imgpro5:hover
+{
+	width:210px;
+	height:210px;
+}
+
+.pencil1:hover{
+	width:350px;
+	height:350px;
+	display:none;
+	background-color: url("art.png");
+
+}
+
+.pencil{
+	width:350px;
+	height:350px;
+	margin-top:5px;
+	margin-left:10px;
+	border-radius:50%;
+}
+.pencil:hover{
+	width:350px;
+	height:350px;
+	margin-top:5px;
+	margin-left:10px;
+	border-radius:50%;
+}
+.pencil1{
+	width:350px;
+	height:350px;
+	margin-top:-250px;
+	margin-left:30px;
+	border-radius:50%;
+	box-shadow:0 10px 10px black;
+	animation:pencil 5s linear infinite;
+}
+
+@keyframes pencil{
+	from{
+		transform:rotate(0deg);
+	}
+	to{
+		transform:rotate(360deg);
+	}
+
+}
+
+
+@media screen and (max-width:700px)
+{
+	.fix1{
+	justify-content:center;
+	align-items:center;
+	display:block;
+	height:150px;
+	width:600px;
+	}
+	.f1{
+		justify-content:center;
+	    align-items:center;
+		font-size:20px;
+		margin-left:110px;
+	}
+	.f2{
+	margin-left:100px;
+	margin-top:-40px;
+	}
+	.f3{
+	font-size:19px;
+	margin-top:8px;
+	margin-left:20px;
+	}
+	.f4{
+	font-size:19px;
+	margin-left:190px;
+	margin-top:-22px;
+	}
+	.f5{
+	font-size:19px;
+	margin-left:360px;
+	margin-top:-22px;
+	}
+	.f6{
+	font-size:19px;
+	margin-left:440px;
+	margin-top:-22px;
+	}
+}
+
+@media screen and (max-width:700px)
+{
+	.fix2{
+	width:600px;
+	height:60px;
+	display:block;
+	justify-content:center;
+	align-items:center;
+	}
+	.ff1{
+	font-size:17px;
+	margin-left:1px;
+	}
+	.ff2{
+	font-size:17px;
+	margin-left:127px;
+	margin-top:-19px;
+	}
+	.ff3{
+	font-size:17px;
+	margin-left:260px;
+	margin-top:-19px;
+	}
+	.ff4{
+	font-size:17px;
+	margin-left:315px;
+	margin-top:-19px;
+	}
+	.ff5{
+	font-size:17px;
+	margin-left:365px;
+	margin-top:-19px;
+	}
+	.ff6{
+	font-size:17px;
+	margin-left:165px;
+	margin-top:-2px;
+	}
+	.ff7{
+	font-size:17px;
+	margin-left:312px;
+	margin-top:-19px;
+	}
+	.ff8{
+	font-size:17px;
+	margin-left:402px;
+	margin-top:-19px;
+	}
+}	
+@media screen and (max-width:700px)
+{
+	.img1{
+		width:586px;
+		height:auto;
+		margin-top:70px;
+		margin-left:-100px;
+	}
+	.img2{
+	width:60px;
+	height:70px;
+	transform:rotate(-35deg);
+	border-radius:20px;
+	margin-left:250px;
+	margin-top:376px;
+   }
+   .img{
+	width:165px;
+	height:373px;
+	margin-top:334px;
+	margin-left:-500px;
+}
+@media screen and (max-width:700px)
+{
+	.Big{
+		display:block;
+	}
+	.s1{
+		margin-top:100px;
+	}
+	.s2{
+		margin-top:-300px;
+		margin-left:270px;
+	}
+	.s3{
+		margin-top:40px;
+		margin-left:40px;
+	}
+	.s4{
+		margin-top:-300px;
+		margin-left:278px;
+	}
+	.s5{
+		margin-top:40px;
+	
+	}
+}
+
+@media screen and (max-width:700px)
+{
+	.mr1{
+	width:586px;
+	height:150px;
+	display:flex;
+	margin-top:20px;
+	gap:20px;
+	background-color:rgb(25 220 15);
+	}
+}
+
+@media screen and (max-width:700px)
+{
+	.st-img{
+	width:500px;
+	height:200px;
+	}
+}
+@media screen and (max-width:700px)
+{
+	.st11{
+	width:20%;
+	height:150px;
+	display:flex;
+	border:2px solid blue;
+	box-shadow:2px blue;
+	gap:50px;;
+	margin-top:-250px;
+	margin-left:40px;
+}
+}
+
+@media screen and (max-width:700px)
+{
+	.name{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	gap:25px;
+   }
+   
+}
+
+@media screen and (max-width:700px)
+{
+		.input2
+		{
+			display: inline-block;
+			flex-direction:column;
+			background-color: rgb(245, 234, 234);
+			width:250;
+			height:200px;
+			margin-top:50;
+			margin-left:0px;
+    }
+		.product_for_you{
+			margin-top:60px;
+		}
+
+}
+
+@media screen and (max-width:700px)
+{
+			.pro1{
+	display:block;
+	margin-left:-140px;
+	margin-top: 75px;
+}
+.pro11
+	{
+		padding:30px;
+
+	}
+}
+
+@media screen and (max-width:700px)
+{
+			.pro2{
+	display:block;
+	margin-left:-400px;
+	margin-top: 90px;
+	}
+.pro22
+	{
+		padding:15px;
+
+	}
+}
+
+@media screen and (max-width:700px)
+{
+			.pro3{
+	display:block;
+	margin-left:-160px;
+	margin-top: -1120px;
+}
+.pro33
+	{
+		padding:15px;
+
+	}
+}
+
+@media screen and (max-width:700px)
+{
+			.pro4{
+	display:block;
+	margin-left:-400px;
+	margin-top: 3px;
+}
+.pro44
+	{
+		padding:15px;
+
+	}
+}
+
+@media screen and (max-width:700px)
+{
+			.pro5{
+	display:block;
+	margin-left:-160px;
+	margin-top: -1118px;
+}
+.pro55
+	{
+		padding:15px;
+
+	}
+}
+
+@media screen and (max-width:700px)
+{
+	.pencil{
+		display:none;
+	}
+	.pencil1{
+		display:none;
+	}
+}
+
+@media screen and (max-width:700px)
+{
+		.after_product{
+			margin-left:-380px;
+			font-size:25px;
+		}
+		.pairagraph{
+			margin-left:-380px;
+			width:500px;
+		}
+}
+
+@media screen and (max-width:700px)
+{
+	.footer1{
+		margin-top:2270px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+<div class="mf">
+<div class="fix1">
+	<div class="f1"><h1><b class="mas">RAJNISH (R.J)</b></h1></div>
+	<div class="f2"><input type="text" type="number" placeholder="           Search me.......     ?"></div>
+	<div class="f3">Become a Suppiler</div>
+	<div class="f4">Investor Relation</div>
+	<div class="f5"><a href="profile.html"style="text-decoration:none;Color:black;">Profile</a></div>
+	<div class="f6">Card</div>
+</div>
+<div class="fix2">
+		<div class="ff1">Woman Ethnic
+		<div class="dropdown1">
+			<ul>
+				<li>All Sarees</li>
+				<li>Silk Sarees</li>
+				<li>Banarasi Silk Sarees</li>
+				<li>Cotton Sarees</li>
+				<li>Georgette Sarees</li>
+				<li>Chiffon Sarees</li>
+				<li>Heavy Work Sarees</li>
+				<li>Net Sarees</li>
+			</ul>	
+		</div>
+		</div>
+		<div class="ff2">Woman Western
+		<div class="dropdown2">
+		<ul>Topwear
+		<li>All PopWear</li>
+		<li>Tops</li>
+		<li>Dress</li>
+		<li>T-Shirts</li>
+		<li>Jumpsuits</li>
+		</ul>
+		</div>
+		</div>
+		<div class="ff3">Men
+			<div class="dropdown3">
+			<ul>
+				<li>Track Paints</li>
+				<li>ALL-Bottomwear</li>
+				<li>Jeans</li>
+				<li>Trouser</li>
+				<li>Shorts</li>
+				<li>Shirts</li>
+				<li>T-Shirts</li>
+				<li>Jackets</li>
+			</ul>
+			</div>
+		</div>
+		<div class="ff4">Kids
+			<div class="dropdown4">
+			<ul>
+				<li>All Sarees</li>
+				<li>Silk Sarees</li>
+				<li>Banarasi Silk Sarees</li>
+				<li>Cotton Sarees</li>
+				<li>Georgette Sarees</li>
+				<li>Chiffon Sarees</li>
+				<li>Heavy Work Sarees</li>
+				<li>Net Sarees</li>
+			</ul>	
+		</div>
+		</div>
+		<div class="ff5">Home & Kitchen</div>
+		<div class="ff6">Beauty & Health</div>
+		<div class="ff7">Jewellery</div>
+		<div class="ff8">Electronics</div>
+</div>
+</div>
+<br><br><br><br><br><br><br>
+<div class="image"><img src="project1pick1.jpg" class="img1"></div>
+<div class="image2"><img src="project1pick2.png" class="img"></div>
+<div ><img src="C:\Users\HP\OneDrive\Pictures\Saved Pictures\IMG_20240715_142718 - Copy.jpg"class="img2"></div>
+<div class="Big">
+	<div class="s1"><img src="project1Nivea.jpg"class="s11"><div class="s111">Personal Care</div></div>
+	<div class="s2"><img src="Project1Headphone.jpg" class="s11"><div class="s222">Electronics</div></div>
+	<div class="s3"><img src="Project1Iphone.png" class="s11"><div class="s333">Smart Phone</div></div>
+	<div class="s4"><img src="Project1Lipbam.png" class="s11"><div class="s444">Makeup</div></div>
+	<div class="s5"><img src="Project1Menperfum.png" class="s11"><div class="s555">Men Perfum</div></div>
+</div>
+
+
+<div class="mr1">
+<marquee loop="-1" direction="alternate" scrollamount="7" behavior="scroll">
+ <div class="scroll">
+<div class="m1"><img src="Project1Wow.png" class="m11"></div>
+<div class="m2"><img src="ProjectWildstone.png" class="m11"></div>
+<div class="m3"><img src="Project1Nivea.png" class="m11"></div>
+<div class="m4"><img src="ProjectPalm.png" class="m11"></div>
+<div class="m5"><img src="Project1Bata.png" class="m11"></div>
+<div class="m6"><img src="Project1Memaearth.png" class="m11"></div>
+<div class="m7"><img src="ProjectHimalaya.png" class="m11"></div>
+</div>
+</marquee>
+</div>
+
+<div class="st">
+	<img src="Project1st.png" class="st-img">
+	<div class="st11">
+		<img src="P1Sumerdress.png" class="stimg1">
+		<img src="P1Manshirt.png" class="stimg1">
+		<img src="P1Earring.png" class="stimg1">
+	</div>
+	
+    <div class="name">
+	<div class="st111">Summer Dress</div>
+	<div class="st222">Beggy Jens</div>
+	<div class="st333">Earring</div>
+</div>
+</div>
+<h1 style="margin-left:70px" class="product_for_you">Product for you</h1>
+<div class="input2">
+		<input type="text" placeholder="    Sort by:" class="input11">
+			<select class="select1">
+			<option><b>Relevence<b></option>
+			<option>New Arrivel</option>
+			<option>Price(High to Low)</option>
+			<option>Price(Low to High)</option>
+			<option>Rating</option>
+			<option>Discount</option>
+			</select>
+		</input>
+		<h3 style="margin-left: 5">FILTER</h3>
+		<input class="input21" type="text" placeholder="    1000+Product"style="margin-top:-23px;border:none;width:250;background-color:rgb(245, 234, 234)"></input>
+		<h3 style="margin-left: 5">Category</h3>
+		<input type="text" class="input22">
+			<select class="select2">
+			<option></option>
+			<option>Gender</option>
+			<option>Color</option>
+			<option>Fabric</option>
+			<option>Dail shape</option>
+			<option>Size</option>
+			<option>Pric</option>
+			<option>Rating</option>
+			<option>Combo</option>
+			<option>Discount</option>
+			</select>
+		</input>
+		<input type="text"placeholder="   Search"class="input33">
+		<i class="material-icons icon" style="margin-top: -57px;margin-left: 200px;">search</i>
+		<input style="width:250" placeholder="    Chose anythin as you want">
+		<span style="font-size: 19px;"><input type="checkbox" name="accept">Woman T-shirt</span>
+		<span style="font-size: 19px;"><input type="checkbox" name="accept">Woman Top and Tonics</span>
+		<span style="font-size: 19px;"><input type="checkbox" name="accept">Analog Watches</span>
+		<span style="font-size: 19px;"><input type="checkbox" name="accept">Bangles & Bracelet-men</span>
+		<span style="font-size: 19px;"><input type="checkbox" name="accept">Bangles & Bracelet</span>
+		<span style="font-size: 19px;"><input type="checkbox" name="accept">Bedsheets</span>
+		<span style="font-size: 19px;"><input type="checkbox" name="accept">Bike Cover</span>
+		<span style="font-size: 19px;"><input type="checkbox" name="accept">Dresses</span>
+		<span style="font-size: 19px;"><input type="checkbox" name="accept">Bluetooth & Headphone</span>
+		<span style="font-size: 19px;"><input type="checkbox" name="accept">Boxes & Baskets</span>
+</div>
+
+<div class="product">
+	<div class="pro1">
+			<div class="pro11"><img src="P1prorj1.png"class="imgpro1">
+					<div class="imgpro_1"> $120.00 <del>$200.00</del></div>
+					<button>Order Now</button>
+			</div>
+			<div class="pro11"><img src="rj11.jpeg"class="imgpro1">
+						<div class="imgpro_1"> $290.00 <del>$300.00</del></div>
+						<button>Order Now</button>
+			</div>
+			<div class="pro11"><img src="Project1Bata.png"class="imgpro1">
+						<div class="imgpro_1"> $420.00 <del>$500.00</del></div>
+						<button>Order Now</button>
+			</div>
+			<div class="pro11"><img src="pick5.png"class="imgpro1">
+							<div class="imgpro_1"> $330.00 <del>$400.00</del></div>
+							<button>Order Now</button>
+			</div>
+	</div>
+	<div class="pro2">
+			<div class="pro22"><img src="p1prorj2.png"class="imgpro2">
+					<div class="imgpro_1"> $310.00 <del>$450.00</del></div>
+					<button>Order Now</button>	
+			</div>
+			<div class="pro22"><img src="IMG_20250602_095206.jpg"class="imgpro2">
+					<div class="imgpro_1"> $76.00 <del>$540.00</del></div>
+					<button>Order Now</button>	
+			</div>
+			<div class="pro22"><img src="IMG_20250602_095146.jpg"class="imgpro2">
+					<div class="imgpro_1"> $70.00 <del>$340.00</del></div>
+					<button>Order Now</button>	
+			</div>
+			<div class="pro22"><img src="IMG_20250602_095340.jpg"class="imgpro2">
+					<div class="imgpro_1"> $220.00 <del>$400.00</del></div>
+					<button>Order Now</button>	
+			</div>
+	</div>
+	<div class="pro3">	
+	    <div class="pro33"><img src="infinite.png"class="imgpro3">
+					<div class="imgpro_1"> $80.00 <del>$450.00</del></div>
+					<button>Order Now</button>	
+			</div>
+	    <div class="pro33"><img src="ajcoching.jpg"class="imgpro3">
+					<div class="imgpro_1"> $260.00 <del>$540.00</del></div>
+					<button>Order Now</button>	
+			</div>
+	    <div class="pro33"><img src="pick9.png"class="imgpro3">
+					<div class="imgpro_1"> $110.00 <del>$430.00</del></div>
+					<button>Order Now</button>	
+			</div>
+	    <div class="pro33"><img src="pick8.png"class="imgpro3">
+					<div class="imgpro_1"> $320.00 <del>$320.00</del></div>
+					<button>Order Now</button>	
+			</div>	
+	</div>
+	<div class="pro4">	
+	    <div class="pro44"><img src="P1prorj1.png"class="imgpro4">
+					<div class="imgpro_1"> $170.00 <del>$260.00</del></div>
+					<button>Order Now</button>	
+			</div>
+	    <div class="pro44"><img src="IMG_20250602_095037.jpg"class="imgpro4">
+					<div class="imgpro_1"> $150.00 <del>$200.00</del></div>
+					<button>Order Now</button>	
+			</div>
+	    <div class="pro44"><img src="p1prorj2.png"class="imgpro4">
+					<div class="imgpro_1"> $210.00 <del>$330.00</del></div>
+					<button>Order Now</button>	
+			</div>
+	    <div class="pro44"><img src="p1prorj2.png"class="imgpro4">
+					<div class="imgpro_1"> $220.00 <del>$540.00</del></div>
+					<button>Order Now</button>	
+			</div>	
+	</div>
+
+	
+	<div class="pro5">
+			<div class="pro55"><img src="p1prorj2.png"class="imgpro5">
+					<div class="imgpro_1"> $310.00 <del>$450.00</del></div>
+					<button>Order Now</button>	
+			</div>
+			<div class="pro55"><img src="IMG_20250602_095340.jpg"class="imgpro5">
+					<div class="imgpro_1"> $76.00 <del>$540.00</del></div>
+					<button>Order Now</button>	
+			</div>
+			<div class="pro55"><img src="IMG_20250602_095037.jpg"class="imgpro5">
+					<div class="imgpro_1"> $70.00 <del>$340.00</del></div>
+					<button>Order Now</button>	
+			</div>
+			<div class="pro55"><img src="P1prorj1.png"class="imgpro5">
+					<div class="imgpro_1"> $220.00 <del>$400.00</del></div>
+					<button>Order Now</button>	
+			</div>
+	</div>
+
+		<h1 class="after_product">This is for your information :-</h1>
+			<p class="pairagraph">Selling product information effectively involves understanding your target audience,
+				 highlighting benefits over features, and creating compelling descriptions that resonate with potential buyers</p>
+			<p class="pairagraph">Knowing who you're selling to is crucial for crafting messages that resonate with their needs and interests.</p>
+</div>
+
+<div class="pencil"><img src="art.png"class="pencil1"></div><br><br><br>
+
+
+
+
+<footer class="footer1">
+	<table  align="center" width="100%" height="6%" style="color:blueviolet;margin-top:80px;background-color:rgb(220,210,200);">
+		<tr>
+	<td><h4>Quick Links</h4></td>
+	<td><h4>Apps</h4></td>
+	<td><h4>More</h4></td>
+	</tr>
+	<tr>
+	<td><a href="wxfdgdgfhhgjh"style="text-decoration:none;color:gray">Sarkarisearch@X</a></td>
+	<td><a href="dghgfgfj"style="text-decoration:none;color:gray">Android App</a></td>
+	<td><a href="https://upsc.gov.in/"style="text-decoration:none;color:gray"target="_blank">UPSC</a></td>
+	</tr>
+		<tr>
+	<td><a href="wxfdgdgfhhgjh"style="text-decoration:none;color:gray">Sarkarisearch@Telegram</a></td>
+	<td><a href="dghgfgfj"style="text-decoration:none;color:gray">IOS App</a></td>
+	<td><a href="https://upsssc.gov.in/"style="text-decoration:none;color:gray"target="_blank">UPSSSC</a></td>
+	</tr>
+	<tr>
+	<td><a href="wxfdgdgfhhgjh"style="text-decoration:none;color:gray">Sarkarisearch@Instagram</a></td>
+	<td><a href="dghgfgfj"></a></td>
+	<td><a href="https://ssc.gov.in/"style="text-decoration:none;color:gray"target="_blank">SSC</a></td>
+	</tr>
+	<tr>
+	<td><a href="wxfdgdgfhhgjh"style="text-decoration:none;color:gray">Sarkarisearch@Facebook</a></td>
+	<td><a href="dghgfgfj"></a></td>
+	<td><a href="https://www.bpsc.bih.nic.in/"style="text-decoration:none;color:gray"target="_blank">BPSC</a></td>
+	</tr>
+	<tr>
+	<td><a href="wxfdgdgfhhgjh"style="text-decoration:none;color:gray">Sarkarisearch@Youtube</a></td>
+	<td><a href="dghgfgfj"></a></td>
+	<td><a href="https://www.nta.ac.in/"style="text-decoration:none;color:gray"target="_blank">NTA</a></td>
+	</tr>
+		<tr>
+	<td><a href="wxfdgdgfhhgjh"style="text-decoration:none;color:gray">Sarkarisearch@Whatsapp</a></td>
+	<td><a href="dghgfgfj"style="text-decoration:none;color:gray"></a></td>
+	<td><a href="https://nielit.gov.in/"style="text-decoration:none;color:gray"target="_blank">NIELIT</a></td>
+	</tr>
+ </table>	
+	</footer>
+
+	<a href="https://www.facebook.com/rjrajbharrajvanshi/" target="_blank">
+    Follow us on Facebook
+</a>
+ </body>
+
+</html>
